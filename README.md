@@ -120,13 +120,13 @@ Replace the placeholder values in `backend/serviceApi.json` with your own Google
   "type": "service_account",
   "project_id": "your_project_id", // Replace this with your project ID
   "private_key_id": "your_private_key_id", // Replace this with your private key ID
-  "private_key": "-----BEGIN PRIVATE KEY-----\nyour_private_key\n-----END PRIVATE KEY-----\n", // Replace this with your private key
+  "private_key": "", // Replace this with your private key
   "client_email": "your_client_email", // Replace this with your client email
   "client_id": "your_client_id", // Replace this with your client ID
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "your_client_x509_cert_url", // Replace this with your client X509 cert URL
+  "auth_uri": "",
+  "token_uri": "",
+  "auth_provider_x509_cert_url": "",
+  "client_x509_cert_url": "", // Replace this with your client X509 cert URL
   "universe_domain": "googleapis.com"
 }
 ```
